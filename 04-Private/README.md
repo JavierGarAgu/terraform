@@ -24,7 +24,7 @@ This project involves setting up an Azure MySQL Server and connecting it securel
 
 **Note**: The deployment proccess can last around 15-30 minutes.
 
-Now you can access to the Public IP provided in the output, you will see the pod hostname and mysql content
+Now you can access to the Public IP provided in the output, you will see the pod hostname and mysql content. if you reload the page you will see that the hostname change.
 
 ![webapp](https://github.com/JavierGarAgu/terraform/blob/master/04-Private/images/show.png)
 
