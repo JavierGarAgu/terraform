@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Coches</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Lista de Coches</h1>
+    <p>Nombre del host: {{ host }}</p>
+    <table>
+        <tr>
+            <th>Coche ID</th>
+            <th>Modelo ID</th>
+            <th>Propietario ID</th>
+            <th>Año Compra</th>
+            <th>Color</th>
+        </tr>
+        {% for fila in resultados %}
+        <tr>
+            <td>{{ fila[0] }}</td>
+            <td>{{ fila[1] }}</td>
+            <td>{{ fila[2] }}</td>
+            <td>{{ fila[3] }}</td>
+            <td>{{ fila[4] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
