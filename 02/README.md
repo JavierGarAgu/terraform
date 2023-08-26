@@ -17,8 +17,8 @@ This Terraform project automates the setup of an Azure Load Balancer with NAT ru
 
 4. Initialize the Terraform project:
 
-   ```sh
-   terraform init`` 
+   
+   `terraform init`
 
 5.  Review the changes that will be applied:
     
