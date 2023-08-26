@@ -13,6 +13,7 @@ Explore the projects available in this repository:
 | Project Number | Project Description                        |
 |----------------|--------------------------------------------|
 | 01             | VM Nginx Webpage                           |
+| 02             | VMs Nginx Webpage with LB                  |
 | 03             | Web App with Azure SQL                     |
 | 04-Private     | Private AKS with MySQL                     |
 | 04-Public      | Public AKS with MySQL                      |
