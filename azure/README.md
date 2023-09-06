@@ -1,6 +1,6 @@
-# Terraform Practice Repository
+# Terraform Azure Practice Repository
 
-Welcome to my Terraform Practice Repository! This repository contains various Terraform projects that I have created while preparing for the Terraform certification. All the projects here are open-source and free to use.
+Welcome to my Terraform Azure Practice Repository! This repository contains various Terraform projects in Azure that I have created while preparing for the Terraform certification. All the projects here are open-source and free to use.
 
 ## Overview
 
